@@ -58,7 +58,7 @@ blocks:
   - type: "content"
     content:
       - p: 
-        - str: "... and below is a static map. Note that the container ID must be unique (in the example below it is maplibremap2)."
+        - str: "Below is a pic of homeless shelters"
 
   - type: "map"
     content:
