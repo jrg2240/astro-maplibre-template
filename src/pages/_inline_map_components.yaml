@@ -77,7 +77,7 @@ blocks:
       - p: 
         - str: "To add static images from a jpg or png file save the image in the public/img folder and use the syntax below"
       - img:
-        - src: "./img/newplot.png"
+        - src: "img/newplot.png"
           alt: "image description"
 
   - type: "content"
