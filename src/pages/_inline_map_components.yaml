@@ -77,13 +77,13 @@ blocks:
       - p: 
         - str: "To add static images from a jpg or png file save the image in the public/img folder and use the syntax below"
       - img:
-        - src: "./img/newplot (6).png"
+        - src: "./img/newplot.png"
           alt: "image description"
 
   - type: "content"
     content:
       - h2: 
-        - str: "A subsection"
+        - str: "This is a title"
       - p: 
         - str: "You can go into more detail here."
       - p: 
@@ -95,3 +95,11 @@ blocks:
         - str: "A further subsection"
       - p: 
         - str: "And even more detail here."
+
+
+         - type: "content"
+    content:
+      - h2: 
+        - str: "An iframe example"
+      - iframe:
+        - src: <iframe width='100%' height='400px' src="https://api.mapbox.com/styles/v1/marioag/clzbybnep002n01p646zu2qpk.html?title=false&access_token=pk.eyJ1IjoibWFyaW9hZyIsImEiOiJjamxncWNoMDcwMDhtM3FteDZ5dDZwZHd2In0.YzWCU25slWawKWGNYbhNjQ&zoomwheel=false#2/38/-34" title="Sample Style" style="border:none;"></iframe>
